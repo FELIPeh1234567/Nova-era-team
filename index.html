@@ -1,0 +1,356 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Nova Era Team</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/skel.min.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/video.js"></script>
+       
+
+        <noscript>
+        <link rel="stylesheet" href="css/style.css" />
+        </noscript>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <!-- css -->
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
+        <script src="js/jquery.slide-text-left.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $(".slideText").slideTextLeft(
+                        {words: [" RPG's", " FPS", " Mobas", " MMO's"], delay: 4000}
+                //{ words: "business" }
+                //"business"
+                //["ideas", "business", "passion"], 100
+                );
+            });
+        </script>
+         
+        <link rel="stylesheet" href="css/animate.css">
+        <style>
+            .wow:first-child {
+                visibility: hidden;
+            }
+        </style>
+        <!--[if IE]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!--Layout responsivo-->
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/responsivo/tablet.css" media="screen"/>
+    </head>
+
+    <body onload="init();" style="height: 100%;">
+
+        <!-- 
+               ******************************************************************************
+
+                                               Cabecalho header
+
+               ******************************************************************************
+        -->
+
+        <section id="slide-1" class="homeSlide">
+            <div class="bcg" data-center="background-position: 10% 0px;" data-top-bottom="background-position: 10% 10px;" data-anchor-target="#slide-1">
+                <nav id="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contoto</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                        <li><a href="#">Forum</a></li>
+                    </ul>
+                </nav>
+
+                <!--menu responsivo mobile-->
+                <a id="nav-toggle" href="#"><span></span></a>
+
+                <div class="seta-menu">
+                    <img src="images/linha-estilo-menu.png" >
+                </div>
+
+                <section id="header">
+                    <div class="inner">
+                        <div id="video">
+
+                            <!--                     poster="images/batimento.jpg"-->
+                            <video id="Video1" width="100%" height="100%" loop>
+                                <source src="video/animacao-lol.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                        <div class="hsContent">
+                            <h1 class="nomes" data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" >Lorem ipsum <strong class="slidText">Dolor</strong></h1>
+                            <p class="texto1" data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus neque. <br>Cras sit amet ligula 
+                                ut justo commodo porta id ut enim. Nulla est lectus, mollis sit amet vehicula id, volutpat eget mauris.</p>
+                        </div>
+                        <center>
+                            <ul class="actions">
+                                <li><a href="#one" class="botao-circulo scrolly"
+                                       data-center="opacity: 0" data--200-bottom="opacity: 1" data-206-top="opacity: 0" data-106-top="opacity: 0">
+                                        <img src="images/seta-baixo.png">
+                                    </a>
+                                </li>
+                            </ul>
+                        </center>
+                    </div>
+
+                    <div id="buttonbar" data-center="opacity: 0" data--200-bottom="opacity: 1" data-206-top="opacity: 0" data-106-top="opacity: 0">
+                        <button id="volDn"><img src="images/video/menos.png" id="menos"/></button>
+                        <button id="volUp"><img src="images/video/mais.png" id="btn-mais"/></button>
+                        <button id="mute"><img src="images/video/som.png" id="btn-mudo"/></button>
+                    </div>   
+                </section>
+            </div>
+        </section>
+        <!-- <img src="images/borda-site.png" width="100%" id="borda-video"> -->
+
+        <!-- 
+    ******************************************************************************
+
+                                icones
+
+    ******************************************************************************
+        -->
+        <section id="slide-3" class="homeSlide">
+            <div class="bcg" data-center="background-position: 0px 10%;" data-bottom-top="background-position: 0px 10%;" data-top-bottom="background-position: 100px 50%;" data-anchor-target="#slide-3">
+                <section class="main style1 special">
+                    <div class="container testee-geral">
+                        <header class="titulo">
+                            <h2>Lorem ipsum dolor adipiscing<br />
+                                amet dolor consequat</h2>
+                        </header>
+
+                        <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+
+                        <br><hr class="linha-titulo"><br>
+                        <img src="images/logo-transp.png" id="fundo-transparente-icones">
+                        <section class="wow fadeInDown">
+                            <div class="row 150%">
+
+                                <div class="4u 12u$(medium)">
+                                    <span class="image ico"><img src="images/headset.png" alt="" /></span>
+                                    <h3 id="texto-fone">Lorem Ipsum Dolor</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer  elit.</p>
+                                    <p>Vestibulum at purus sed erat suscipit.</p>
+                                    <p>Cras facilisis viverra wisi. Class sociosqu...</p>
+                                </div>
+
+                                <div class="4u 12u$(medium)">
+                                    <span class="image ico"><img src="images/controle.png" alt="" /></span>
+                                    <h3 id="texto-controle">Lorem Ipsum Dolor</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer  elit.</p>
+                                    <p>Vestibulum at purus sed erat suscipit.</p>
+                                    <p>Cras facilisis viverra wisi. Class sociosqu...</p>
+                                </div>
+
+                                <div class="4u$ 12u$(medium)">
+                                    <span class="image ico"><img src="images/notebook.png" alt="" /></span>
+                                    <h3 id="texto-note">Lorem Ipsum Dolor</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer  elit.</p>
+                                    <p>Vestibulum at purus sed erat suscipit.</p>
+                                    <p>Cras facilisis viverra wisi. Class sociosqu...</p>
+                                </div>
+                                <div class="botao-mais">
+                                    <input type="button" value="Leia mais..." class="mais">
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- 
+               ******************************************************************************
+
+                                          Jogos
+
+               ******************************************************************************
+        -->
+        <section id="slide-4" class="homeSlide">
+            <div class="bcg" data-center="background-position: 50% 0px;" data-bottom-top="background-position: 50% 100px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-4">
+                <section class="main style2">
+                    <h1 class="jogos-nomes">Jogamas de tudo <strong class="slideText">Mobas</strong></h1>
+                    <!--                    <section class="section--blue wow bounceInLeft" data-wow-offset="300">-->
+                    <p class="texto-jogos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus neque. <br>Cras sit amet ligula 
+                        ut justo commodo porta id ut enim. Nulla est lectus,<br> mollis sit amet vehicula id, volutpat eget mauris.
+                        Lorem ipsum dolor sit amet<br>consectetur adipiscing elit. Sed at risus neque. Cras sit amet ligula 
+                        ut justo commodo<br> porta id ut enim. Nulla est lectus, mollis sit amet vehicula id, volutpat eget mauris.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus neque.<br> Cras sit amet ligula ut justo commodo porta id ut enim. Nulla est lectus, mollis sit 
+                        amet<br> vehicula id, volutpat eget mauris.Lorem ipsum dolor sit amet, consectetur 
+                    </p>
+                    <!--                    </section>-->
+                    <div class="botaozao">
+                        <input type="button" value="Conheça nossos jogos..." class="jogos-botao">
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+        <!-- 
+            ******************************************************************************
+
+                                     Parceria
+
+            ******************************************************************************
+        -->
+        <section id="slide-6">
+            <div class="bcg" data-center="background-position: 0px 10%;" data-bottom-top="background-position: 0px 10%;" data-top-bottom="background-position: 100px 50%;" data-anchor-target="#slide-3">
+                <div class="container testee-geral">
+                    <header class="major">
+                        <h2 id="titulo-fotos">Nossos Parceiros</h2>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus neque. <br>Cras sit amet ligula 
+                        ut justo commodo porta id ut enim. Nulla est lectus.<br>
+                    <br><hr class="linha-galeria"><br>
+
+                    <section class="wow fadeInDown">
+                        <nav id="parceria">
+                            <ul>
+
+                                <li><a href=""><img src="images/parceiros/lvlup.png" alt="" /></a></li>
+                                <li><a href=""><img src="images/parceiros/gamehall.png" alt="" /></a></li>
+                                <li><a href=""><img src="images/parceiros/gamevicio.png" alt="" /></a></li>
+                                <li><a href=""><img src="images/parceiros/triplex.png" alt="" /></a></li>
+                                <li><a href=""><img src="images/parceiros/centralkeys.png" alt="" /></a></li>
+                                <li><a href=""><img src="images/parceiros/gametalk.png" alt="" /></a></li>
+
+                            </ul>
+                        </nav>
+                    </section>
+                </div>
+
+                <center>
+                    <div class="botao-parceria">
+                        <input type="submit" value="Mais sobre eles..." class="btn-parceria">
+                    </div>
+                </center>
+            </div>
+        </section>
+
+
+        <section id="slide-7">
+            <div class="bcg" data-center="background-position: 50% 0px;" data-bottom-top="background-position: 50% 100px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-4">
+                <div class="teste-footer">
+                    <p>teste</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+               ******************************************************************************
+    
+                                       Roda Pe
+    
+               ******************************************************************************
+        -->
+
+
+        <!--                <section id="footer">
+    
+            <p>Nova Era <strong>team</strong></p>
+            <p class="texto-footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus neque. <br>Cras sit amet ligula 
+                ut justo commodo porta id ut enim.<br>
+            <center>
+    
+                <ul class="coluna-1">
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Download team</a></li>
+                    <li><a href="#">A Comunidade</a></li>
+                    <li><a href="#">Sobre a Nova Era</a></li>
+                    <li><a href="#">Recrute-se</a></li>
+                    <li><a href="#">Fale conosco</a></li>
+                    <li><a href="#">Regras da comunidade</a></li>
+                    <li><a href="#">Team Speak</a></li>
+                </ul>
+    
+                <ul class="coluna-2">
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Sobre os Fundadores</a></li>
+                    <li><a href="#">Mapa do site</a></li>
+                    <li><a href="#">Parcerias</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Game play</a></li>
+                    <br/>
+                    <li><a href="#">Forum</a></li>
+                </ul>
+    
+                <ul class="video-footer">
+                    <li>
+                        <iframe src="https://player.vimeo.com/video/100722173" 
+                                width="500" height="281" frameborder="0" 
+                                webkitallowfullscreen mozallowfullscreen allowfullscreen>          
+                        </iframe> 
+                    </li>
+                </ul>
+                <img src="images/linha-estilo-menu.png" id="linha-style-footer">
+            </center>
+    
+    
+            <section class="wow fadeInDown">
+                <div class="component">
+                    <a href="#" class="icon icon-border facebook">facebook</a>
+                    <a href="#" class="icon icon-border twitter">twitter</a>
+                    <a href="#" class="icon icon-border googleplus">google+</a>
+                    <a href="#" class="icon icon-border github">github</a>
+                    <a href="#" class="icon icon-border rss">rss</a>
+                </div>
+            </section>
+    
+    
+                        <ul class="Copyright">
+                            <li>&copy; Copyright</li><li>Design: Felipe henrique Silva</li>
+                        </ul>
+                            <img src="images/bg-footer-3.png" id="footer-teste"/>
+        </section>-->
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/imagesloaded.js"></script>
+        <script src="js/skrollr.js"></script>
+        <script src="js/_main.js"></script>
+
+
+        <!-- demo js -->
+        <script src="js/demo/demo.js"></script>
+
+        <!-- ad -->
+        <script src="js/common/fusionad.js"></script>
+        <!-- analytics -->
+        <script src="js/wow.js"></script>
+        <script>
+        wow = new WOW(
+                {
+                    animateClass: 'animated',
+                    offset: 100,
+                    callback: function (box) {
+                        console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+                    }
+                }
+        );
+        wow.init();
+        document.getElementById('moar').onclick = function () {
+            var section = document.createElement('section');
+            section.className = 'section--purple wow fadeInDown';
+            this.parentNode.insertBefore(section, this);
+        };
+        </script>
+
+    </body>
+</html>
